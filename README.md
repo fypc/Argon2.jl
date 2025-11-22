@@ -14,8 +14,15 @@ Argon2 is a memory-hard password hashing function designed to resist GPU crackin
 
 ## Installation
 
+Since this package depends on the custom `argon2_jll` package, you need to install both:
+
 ```julia
 using Pkg
+
+# First, add the JLL dependency
+Pkg.add(url="https://github.com/fypc/Argon2_jll.jl")
+
+# Then, add Argon2
 Pkg.add(url="https://github.com/fypc/Argon2.jl")
 ```
 
