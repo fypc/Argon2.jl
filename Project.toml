@@ -1,0 +1,16 @@
+name = "Argon2"
+uuid = "0e6fe123-534c-4224-8bd2-6bd75d1bdac5"
+version = "0.2.0"
+authors = ["FYP <fyp1534@gmail.com>"]
+
+[deps]
+argon2_jll = "2b4f1e85-fc50-5eed-88c0-58968af4dd78"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
