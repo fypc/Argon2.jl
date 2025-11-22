@@ -278,6 +278,23 @@ using Pkg
 Pkg.test("Argon2")
 ```
 
+## Version History
+
+### v0.2.0 (Current - JLL-based)
+- **Implementation:** Uses [argon2_jll.jl](https://github.com/fypc/Argon2_jll.jl) for library management
+- **Installation:** Automatic build via JLL on first use
+- **Branch:** `main`
+- **Recommended for:** All new projects
+
+### v0.1.0 (Legacy - Source build)
+- **Implementation:** Manual source compilation via deps/build.jl
+- **Repository:** [Argon2Src.jl](https://github.com/fypc/Argon2Src.jl)
+- **Branch:** `source-build` (in legacy repository)
+- **Tag:** `v0.1.0-source`
+- **Use if:** You need the source-based build approach
+
+Both versions have identical APIs and are fully compatible.
+
 ## License
 
 This package wraps the Argon2 reference implementation, which is available under Creative Commons CC0 1.0 Universal or Apache Public License 2.0.
