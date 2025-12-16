@@ -7,7 +7,7 @@ authors = ["FYP <fyp1534@gmail.com>"]
 argon2_jll = "2b4f1e85-fc50-5eed-88c0-58968af4dd78"
 
 [compat]
-argon2_jll = "20190702.1.0"
+argon2_jll = "^20190702.1.0"
 julia = "1.6"
 
 [extras]
