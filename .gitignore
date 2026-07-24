@@ -1,4 +1,10 @@
-/deps.jl
-/usr/
-/src/phc-winner-argon2/
-/build.log
+# Build artifacts produced by deps/build.jl (must NOT be committed,
+# otherwise the nested clone becomes a gitlink/submodule that breaks
+# `Pkg.add url=...`).
+/deps/deps.jl
+/deps/usr/
+/deps/src/
+/deps/build.log
+
+# Julia
+/Manifest.toml
