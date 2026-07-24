@@ -1,0 +1,15 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.12.6"
+manifest_format = "2.0"
+project_hash = "758588b81123ca4e090ee4ea01aafb31349b3e4c"
+
+[[deps.Argon2]]
+deps = ["Libdl"]
+path = "."
+uuid = "55e0871a-548f-4203-87fa-316996024cba"
+version = "0.1.0"
+
+[[deps.Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+version = "1.11.0"

@@ -1,0 +1,22 @@
+Creative Commons CC0 1.0 Universal License / Apache License 2.0 dual license.
+
+This Julia package (Argon2.jl) wraps the Argon2 reference implementation from
+https://github.com/P-H-C/phc-winner-argon2 , which is
+
+  Copyright (c) 2015 Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson,
+  and Samuel Neves,
+  dual-licensed under CC0 1.0 Universal and Apache License 2.0.
+
+The string encoding routines (src/encoding.c in the upstream source) are
+  Copyright (c) 2015 Thomas Pornin, under CC0 1.0.
+
+The BLAKE2 code (src/blake2/ in the upstream source) is
+  Copyright (c) 2013-2015 Samuel Neves, under CC0 1.0.
+
+The Julia wrapper code itself is distributed under the MIT License.
+
+SPDX-License-Identifier: CC0-1.0 OR Apache-2.0 (wrapped C library)
+SPDX-License-Identifier: MIT (Julia wrapper)
+
+Full text of the upstream licenses accompanies the cloned source under
+deps/src/phc-winner-argon2/ after the package is built.
